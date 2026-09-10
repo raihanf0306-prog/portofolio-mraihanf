@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Morphing organic shapes */
+  .animate-morph-slow {
+    animation: morphShape 16s ease-in-out infinite alternate;
+  }
+  .animate-morph-slow-reverse {
+    animation: morphShape 20s ease-in-out infinite alternate-reverse;
+  }
+  .animate-float-subtle {
+    animation: floatSubtle 6s ease-in-out infinite;
+  }
+  .animate-pulse-glow {
+    animation: pulseGlow 4s ease-in-out infinite;
+  }
+}
+
+@keyframes morphShape {
+  0% {
+    border-radius: 50% 50% 30% 70% / 60% 40% 60% 40%;
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    border-radius: 60% 40% 70% 30% / 40% 60% 40% 60%;
+    transform: rotate(90deg) scale(1.04);
+  }
+  100% {
+    border-radius: 40% 60% 30% 70% / 60% 30% 70% 40%;
+    transform: rotate(180deg) scale(0.98);
+  }
+}
+
+@keyframes floatSubtle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.06);
+  }
+}
+
+/* Custom scrollbar for modern feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.6);
+}
