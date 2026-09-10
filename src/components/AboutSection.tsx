@@ -57,7 +57,7 @@ export const AboutSection: React.FC = () => {
             className="space-y-4 text-base sm:text-lg text-slate-600 leading-relaxed font-normal"
           >
             <p>
-              Halo! Saya <strong className="text-slate-900 font-semibold">Muhammad Raihan Firdaus</strong>, lulusan <span className="text-blue-700 font-medium">S1 Pendidikan Bahasa Arab dari STIT Hidayatunnajah Bekasi</span> dengan pengalaman lebih dari 3 tahun bekerja di lingkungan pendidikan.
+              Halo! Saya <strong className="text-slate-900 font-semibold">Muhammad Raihan Firdaus</strong>, lulusan <span className="text-blue-700 font-medium">S1 Pendidikan Bahasa Arab dari STIT Hidayatunnajah Bekasi</span> dengan pengalaman 5 tahun bekerja di lingkungan pendidikan.
             </p>
             <p>
               Selain mengajar, saya dipercaya terlibat dalam berbagai kebutuhan administrasi, pelayanan informasi, serta pelaksanaan event sekolah, seperti <span className="text-slate-800 font-medium">PPDB, Open House, dan berbagai program siswa</span>.

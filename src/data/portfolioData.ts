@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
   education: 'S1 Pendidikan Bahasa Arab dari STIT Hidayatunnajah Bekasi',
   openToWork: 'OPEN TO WORK',
   workPreference: 'Remote / WFH',
-  experienceYears: '3+ Years',
+  experienceYears: '5 Years',
   avatarUrl: 'https://cdn.lynkid.my.id/draft-products/10-09-2026/1789043066257_3696463.jpeg?format=webp',
   avatarLocalUrl: '/images/profile.jpg',
   avatarOriginalName: 'WhatsApp Image 2026-05-09 at 11.30.56.jpeg',
@@ -26,10 +26,10 @@ export const PERSONAL_INFO = {
 
 export const QUICK_STATS = [
   {
-    value: '3+',
+    value: '5',
     unit: 'Years',
     label: 'Professional Experience',
-    description: '3+ tahun di lingkungan pendidikan, administrasi & event',
+    description: '5 tahun di lingkungan pendidikan, administrasi & event',
   },
   {
     value: '1',

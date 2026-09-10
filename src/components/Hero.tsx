@@ -75,7 +75,7 @@ export const Hero: React.FC = () => {
               </h2>
 
               <p className="text-base sm:text-lg text-slate-300/90 max-w-2xl leading-relaxed font-normal mb-8">
-                Saya memiliki pengalaman lebih dari 3 tahun bekerja di lingkungan pendidikan dengan pengalaman dalam administrasi, pelayanan informasi, koordinasi kegiatan, event, serta pengelolaan media sosial.
+                Saya memiliki pengalaman 5 tahun bekerja di lingkungan pendidikan dengan keahlian dalam administrasi, pelayanan informasi, koordinasi kegiatan, event, serta pengelolaan media sosial.
               </p>
             </motion.div>
 
@@ -179,7 +179,7 @@ export const Hero: React.FC = () => {
                 </div>
               </div>
 
-              {/* FLOATING CARD 1: 3+ Years Experience */}
+              {/* FLOATING CARD 1: 5 Years Experience */}
               <div
                 className="absolute -top-4 -left-6 sm:-left-8 px-4 py-2.5 rounded-2xl bg-[#0B1120]/90 backdrop-blur-xl border border-white/15 shadow-[0_10px_25px_rgba(0,0,0,0.4)] shadow-blue-500/10 flex items-center gap-3 animate-float-subtle"
                 style={{ animationDelay: '0s' }}
@@ -188,8 +188,8 @@ export const Hero: React.FC = () => {
                   <Briefcase className="w-4 h-4" />
                 </div>
                 <div>
-                  <div className="text-base font-extrabold text-white leading-tight">3+</div>
-                  <div className="text-[11px] font-medium text-slate-300">Years Experience</div>
+                  <div className="text-base font-extrabold text-white leading-tight whitespace-nowrap">5 Years</div>
+                  <div className="text-[11px] font-medium text-slate-300 whitespace-nowrap">Experience</div>
                 </div>
               </div>
 
@@ -216,8 +216,8 @@ export const Hero: React.FC = () => {
                   <ShieldCheck className="w-4 h-4" />
                 </div>
                 <div>
-                  <div className="text-base font-extrabold text-white leading-tight">BNSP</div>
-                  <div className="text-[11px] font-medium text-slate-300">Certified</div>
+                  <div className="text-base font-extrabold text-white leading-tight whitespace-nowrap">BNSP Certified</div>
+                  <div className="text-[11px] font-medium text-slate-300 whitespace-nowrap">Content Creator</div>
                 </div>
               </div>
             </motion.div>

@@ -27,7 +27,7 @@ export const QuickStats: React.FC = () => {
       stepCount++;
       const progress = stepCount / steps;
       setAnimatedNumbers({
-        years: Math.min(3, Math.round(3 * progress)),
+        years: Math.min(5, Math.round(5 * progress)),
         coordinator: Math.min(1, Math.round(1 * progress)),
         followers: Math.min(9, Math.round(9 * progress)),
       });
@@ -67,7 +67,6 @@ export const QuickStats: React.FC = () => {
               </div>
               <div className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-none mb-1.5 flex items-baseline">
                 <span>{isInView ? animatedNumbers.years : 0}</span>
-                <span className="text-blue-400">+</span>
                 <span className="text-sm sm:text-base font-semibold text-slate-300 ml-1.5">Years</span>
               </div>
               <div className="text-xs sm:text-sm font-bold text-slate-200 uppercase tracking-wider mb-1">
